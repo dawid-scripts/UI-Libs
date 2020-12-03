@@ -113,7 +113,7 @@ function lib:Window(text)
 	local minimize = Instance.new("ImageButton")
 
 	VenLib.Name = "VenLib"
-	VenLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	VenLib.Parent = game.CoreGui
 	VenLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	mainframe.Name = "mainframe"
